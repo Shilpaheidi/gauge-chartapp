@@ -16,6 +16,10 @@
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,
+    "noImplicitAny": false,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+
     "target": "es2020",
     "module": "es2020",
     "lib": [
@@ -27,6 +31,10 @@
     "enableI18nLegacyMessageIdFormat": false,
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
-    "strictTemplates": true
+    "strictTemplates": true,
+   "tsconfig": "./tsconfig.json",
+   "strictFunctionTypes": true,
+"strictNullChecks": true,
+    "ignoreSettings": true,
   }
 }
